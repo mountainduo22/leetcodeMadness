@@ -1,1 +1,1 @@
-# leetcodeMadness
+# leetcode practices
