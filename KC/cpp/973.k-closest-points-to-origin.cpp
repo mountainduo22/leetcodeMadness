@@ -9,7 +9,7 @@ class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
         vector<vector<int>> result;
-        multimap<double, vector<int>, less<long long>> mapOfItems;
+        multimap<double, vector<int>, less<double>> mapOfItems;
         int i = 0;
 
         for (auto const &point : points)
